@@ -2,13 +2,13 @@
 # 18734
 ## Create a web page using a template (Level 1 Unit Standard)
 
-Name: 
+Name: Meiona Misa
 
-Date: 
+Date: 10/05/21
 
-Homeroom: 
+Homeroom: 10vv
 
-Teacher: 
+Teacher: Mr Malaitai
 
 # Instructions:
 
