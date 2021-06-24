@@ -4,10 +4,10 @@ Date:
 */
 
 :root{
-    --main-bg-colour: #05445e;
-    --sec-bg-colour: #189ab4;
-    --main-colour: #d4f1f4;
-    --sec-colour: #75e6da;
+    --main-bg-colour: #055e5e;
+    --sec-bg-colour: #18b46b;
+    --main-colour: #d4f4db;
+    --sec-colour: #c8e675;
 }
 
 .container{ /*DO NOT REMOVE OR EDIT*/
@@ -18,6 +18,7 @@ Date:
     "header header header"
     "side1 section1 section1"
     "section2 videoSection side2"
+    "references references references"
     "footer footer footer";
 }
 
@@ -27,40 +28,64 @@ Date:
 
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
+    background-color: #CDA2BE;
+    color: #1A1A1A;
+    text-align: center;
+    font-family: 'Sigmar One', cursive;    
 }
 
 .main{ /*DO NOT REMOVE*/
     grid-area: main;
-    background-color: var(--sec-bg-colour);
+    background-color: #FF99CC;
     color: var(--main-colour);
 }
 
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
-    background-color: var(--main-colour);
+    background-color:  #FF99CC;
 }
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
-    background-color: var(--main-colour);
+    background-color:  #FF99CC;
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
+    background-color:   #FF99CC;
+    font-family: 'Baloo 2', cursive;
+    
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
+    background-color:   #FF99CC;
+     font-family: 'Baloo 2', cursive;
+    
+
 }
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
+    background-color:   #FF99CC;
+    text-align: center;   
+}
+
+.references{
+  grid-area: references;
+  background-color: #CDA2BE;
 }
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
+    background-color:   #CDA2BE;
+    color: #1A1A1A;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+p,
+ul {
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ 
 }

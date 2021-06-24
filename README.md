@@ -15,7 +15,7 @@ Teacher: Mr Malaitai
 ## Complete the following:
 1. What is the purpose of the web page?
 
-*INSERT ANSWER HERE*
+* The purpose of the web page is to turn visitors into prospects .
 
 2. Who is the target audience of the web page?
 
