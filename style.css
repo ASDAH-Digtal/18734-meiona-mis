@@ -22,9 +22,6 @@ Date:
     "footer footer footer";
 }
 
-.container > div{ /*DO NOT REMOVE*/
-    padding: 10px;
-}
 
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
@@ -38,29 +35,34 @@ Date:
     grid-area: main;
     background-color: #FF99CC;
     color: var(--main-colour);
+   
 }
 
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
     background-color:  #FF99CC;
+    padding: 40px;
+
 }
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
     background-color:  #FF99CC;
+    padding: 40px;
+    
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
     background-color:   #FF99CC;
-    font-family: 'Baloo 2', cursive;
-    
+    padding: 40px
+   
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
     background-color:   #FF99CC;
-     font-family: 'Baloo 2', cursive;
+     padding: 40px;
     
 
 }
@@ -68,12 +70,14 @@ Date:
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
     background-color:   #FF99CC;
-    text-align: center;   
+    text-align: center; 
+    padding: 40px;  
 }
 
 .references{
   grid-area: references;
   background-color: #CDA2BE;
+  text-align: center;
 }
 
 .footer{ /*DO NOT REMOVE*/
@@ -86,6 +90,11 @@ Date:
 
 p,
 ul {
- font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Varela Round', sans-serif;
  
+}
+
+h2,
+h4 {
+  font-family: 'Baloo 2', cursive;
 }
